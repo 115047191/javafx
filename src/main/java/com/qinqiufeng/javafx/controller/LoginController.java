@@ -30,7 +30,7 @@ public class LoginController {
 
 
 
-    public void loginButton(ActionEvent actionEvent) throws IOException {
+    public void loginButton(ActionEvent actionEvent){
         if (loginService.startLogin(username.getText(),password.getText())){
             mainStag();
         }else {
