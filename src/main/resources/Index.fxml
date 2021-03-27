@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
 
-<AnchorPane fx:id="indexPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.qinqiufeng.javafx.controller.IndexController">
-   <children>
-      <Button fx:id="returnButton" layoutX="138.0" layoutY="70.0" mnemonicParsing="false" onAction="#returnStage" text="Button" />
-   </children>
-</AnchorPane>
+<BorderPane fx:id="indexPane" maxHeight="600.0" maxWidth="900.0" minHeight="600.0" minWidth="900.0" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.qinqiufeng.javafx.controller.IndexController">
+   <left>
+      <VBox prefHeight="600.0" prefWidth="104.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="实体类工具" textFill="#70dbff" />
+            <Button mnemonicParsing="false" style="-fx-background-color: #ffffff;" text="Button" />
+         </children></VBox>
+   </left>
+   <center>
+      <BorderPane prefHeight="600.0" prefWidth="829.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
