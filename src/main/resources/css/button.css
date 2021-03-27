@@ -1,0 +1,13 @@
+
+/*
+blur-type:阴影类型 one-pass-box，tow-pass-box，three-pass-box,GAUSSIAN
+color:阴影颜色，16进制色，rgb色都支持
+radius：阴影圆角
+spread：阴影扩散大小或者长度
+offsetX：水平偏移度
+offsetY：垂直偏移度*/
+.menuBox:hover{
+    -fx-effect: dropshadow(three-pass-box, #03e9f4, 50.0,0, 0, 0);
+    -fx-background-color: #03e9f4;
+    -fx-text-fill: #ffffff
+}
